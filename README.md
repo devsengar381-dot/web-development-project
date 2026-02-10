@@ -1,54 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>My Portfolio</title>
+<title>My Shop</title>
+
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        background: #111;
-        color: white;
-        text-align: center;
-    }
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f2f2f2;
+}
 
-    header {
-        background: #222;
-        padding: 20px;
-    }
+header {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
 
-    section {
-        padding: 30px;
-    }
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
 
-    .card {
-        background: #333;
-        margin: 15px auto;
-        padding: 15px;
-        width: 250px;
-        border-radius: 8px;
-    }
+.banner {
+  background: green;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
 
-    footer {
-        background: #222;
-        padding: 10px;
-        margin-top: 20px;
-    }
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px gray;
+}
+
+button {
+  background: orange;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
 </style>
+
 </head>
+
 <body>
 
 <header>
-    <h1>Dev Portfolio</h1>
-    <p>Web Developer Beginner</p>
+  <h1>My E-Commerce Store</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Contact</a>
+  </nav>
 </header>
 
-<section>
-    <h2>Projects</h2>
+<div class="banner">
+  <h2>Welcome to My Shop</h2>
+  <p>Best Deals Everyday</p>
+</div>
 
-    <div class="card">
-        <h3>Mini Shop</h3>
-        <p>Basic E-commerce UI</p>
-    </div>
+<div class="products">
 
-    <div class
+  <div class="card">
+    <img src="https://via.placeholder.com/150">
+    <h3>Product 1</h3>
+    <p>₹499</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/150">
+    <h3>Product 2</h3>
+    <p>₹799</p>
+    <button>Add to Cart</button>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 My Shop
+</footer>
+
+</body>
+</html>
